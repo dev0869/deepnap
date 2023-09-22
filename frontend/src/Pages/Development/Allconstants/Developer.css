@@ -1,0 +1,100 @@
+/* --------------------Website design---------------------- */
+
+.webdesign {
+  padding-top: 30px;
+  margin-top: 20px;
+  width: 100vw;
+  background: url(/src/Assets/hero-dark@90.dba36cdf.jpg);
+  display: flex;
+  opacity: 79px;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(167 41 41 / 41%);
+  position: relative;
+  opacity: 1;
+  background-repeat: repeat;
+  -o-object-fit: cover;
+  opacity: 1;
+  object-fit: cover;
+  padding: 0;
+  margin: 0;
+}
+.webdesign .row {
+  margin-top: 40px;
+}
+.webdesign .heading {
+  font-family: sans-serif !important;
+  padding: 12px;
+  font-weight: bold !important;
+  font-size: 40px !important;
+  color: white !important;
+  text-align: center;
+  font-family: impact;
+  color: rgb(6, 9, 34);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.webdesign .subheading {
+  text-align: center;
+  font-weight: bolder !important;
+  font-size: 1.25rem !important;
+padding-bottom: 12px;
+  color: #c2cce4;
+}
+.webdesign p {
+  margin: 0 0 20px 0;
+  line-height: 1.8;
+  font-size: 17px !important;
+  text-align: center;
+  color: #c9c4c4 !important;
+}
+.webdesign .partf img {
+width: 390px;
+    height: 236px;
+    border: 0;
+    vertical-align: middle;
+    border-radius: 8px;
+    box-shadow: 1px 1px 11px 1px rgb(73 169 229);
+}
+.webdesign .parts {
+  margin: 0 0 20px 0;
+  line-height: 18;
+  font-size: 16px;
+  text-align: justify;
+  color: #777;
+  position: relative;
+  min-height: 1px;
+  padding-left: 15px;
+  padding-right: 15px;
+  float: left;
+}
+
+.dividers {
+align-items: center !important;
+display: flex !important;
+padding: 0 !important;
+  border-radius: 10px;
+}
+.webdesign .parts {
+  margin: 0 0 20px 0;
+  line-height: 18;
+  font-size: 16px;
+  text-align: justify;
+  color: #777;
+}
+
+.mt-10 .h1 {
+  font-weight: bolder;
+  padding-bottom: 12px;
+  color: white !important;
+  font-size: 40px !important;
+}
+.mt-2 h1 {
+  font-weight: bolder;
+  padding-bottom: 12px;
+  color: white !important;
+  font-size: 20px !important;
+  margin-top: 20px !important;
+}
+

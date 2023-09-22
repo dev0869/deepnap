@@ -1,0 +1,204 @@
+.sidebar-acc .accordion-button.collapsed {
+  background: #ffffff;
+  color: #000000;
+  font-size: 1.18rem;
+}
+.sidebar-acc .accordion-button {
+  border: none;
+  display: flex;
+  background: rgba(187, 187, 187, 0);
+  box-shadow: none;
+  align-items: center;
+  color: #0f1218;
+  gap: 8px;
+  border-radius: none;
+  font-size: 1.18rem;
+  padding: 0;
+  border: none;
+}
+.sidebar-acc .accordion-item:first-of-type .accordion-button {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  color: #060c1ade;
+  font-weight: 500;
+}
+.sidebar-acc .collapse {
+  visibility: visible;
+}
+.sidebar-acc .accordion-item {
+  width: 100%;
+  border: none;
+}
+
+.sidebar-nav {
+  padding: 15px 0;
+}
+
+.sidebar-nav > .navbar-item {
+  padding: 6.5px 15px;
+}
+
+.sidebar-nav > .navbar-item .navbar-link {
+  color: #212529;
+  font-size: 18px;
+  font-weight: 550;
+  word-spacing: 8px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
+.sidebar-nav > .navbar-item .navbar-link .navbar-icon {
+  font-size: 18px;
+  margin-right: 6px;
+}
+
+/* .sidebar-nav > .navbar-item .navbar-link.active,
+  .sidebar-nav > .navbar-item:hover .navbar-link {
+    color: #396cf0 !important;
+  } */
+
+.navbar-link:hover,
+.navbar-link.active {
+  color: #396cf0 !important;
+}
+.shortcut .link {
+  color: #396cf0;
+  font-size: 16px;
+}
+.shortcut .icon {
+  font-size: 35px;
+  background: #396df011;
+  color: #396cf0;
+  padding: 6px;
+  width: 70px;
+  height: 70px;
+  border-radius: 100%;
+}
+
+div.dataTables_wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  cursor: pointer;
+}
+/* Hide scrollbar for Chrome, Safari and Opera */
+.routeC::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.routeC {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+div.dataTables_wrapper table {
+  margin-top: 55px;
+  margin-bottom: 0px;
+}
+div.dataTables_filter {
+  width: 30%;
+  height: 60px;
+  position: absolute;
+  right: 0px;
+}
+div.dataTables_length {
+  width: 70%;
+  height: 60px;
+  padding-left: 10px;
+  position: absolute;
+}
+.dataTables_filter label {
+  font-size: 0;
+  width: 100%;
+  padding-right: 10px;
+}
+.dataTables_wrapper input[type="search"] {
+  width: 100%;
+  height: 45px;
+  padding: 12px;
+  border-radius: 5px;
+  font-size: 1rem;
+  border: 1.5px solid lightgrey;
+  outline: none;
+  box-shadow: 0px 0px 20px -18px;
+}
+
+.dataTables_wrapper input[type="search"]:hover {
+  border: 2px solid lightgrey;
+  box-shadow: 0px 0px 20px -17px;
+}
+
+.dataTables_wrapper input[type="search"]:focus {
+  border: 2px solid grey;
+}
+.dataTables_length select {
+  background-color: #f7fafc;
+  border: 1px solid #e2e8f0;
+  color: #1a202c;
+  font-size: 0.875rem;
+  border-radius: 0.375rem;
+  outline-offset: 0.125rem;
+  padding: 0.525rem;
+  margin: 2px 4px;
+}
+.dataTables_empty {
+  padding: 2rem;
+  text-align: center;
+  font-size: 1.2rem;
+}
+div.dataTables_info {
+  width: 50%;
+  padding-left: 10px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  position: absolute;
+  bottom: -50px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.paginate_button.current {
+  background: orangered;
+  color: white;
+}
+div.dataTables_paginate {
+  width: 50%;
+  display: flex;
+  padding-right: 10px;
+  position: absolute;
+  bottom: -60px;
+  right: 0px;
+  align-items: center;
+  justify-content: flex-end;
+}
+.paginate_button {
+  background-color: #cbd5e0;
+  color: #2d3748;
+  display: flex;
+  padding: 0.2rem 0.7rem;
+  border-radius: 100%;
+  cursor: pointer;
+  font-size: medium;
+  margin: 2px;
+  transition: background-color 0.2s;
+  align-items: center;
+}
+.paginate_button.next,
+.paginate_button.previous {
+  background-color: transparent;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.paginate_button.disable {
+  cursor: not-allowed;
+}
+.dataTables_paginate span {
+  display: flex;
+  gap: 1px;
+}
+span.ellipsis {
+  font-size: 24px;
+}
